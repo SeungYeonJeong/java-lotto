@@ -1,8 +1,25 @@
 # 로또
 
+## 구현 할 목록
+* controller
+  * Machine
+* domain
+  * LottoGenerator(X)
+  * LottoTicket (X) 
+    * Lotto 6개 숫자 (X)
+      * LottoNumber 각 1개의 숫자 (x) 
+  * WinningLotto (X)
+  -> Lotto + BonusBall(LottoNumber)
+  * WinningResult(좀 더)
+  * Money(X)
+  * LottoCount(X)
+* view
+  * InputView
+  * OutputView
+
 ## 기능목록
-- [ ] 로또 구입 금액 입력
-  - [ ] 로또 개수를 구한다
+- [X] 로또 구입 금액 입력
+  - [X] 로또 개수를 구한다
 - [ ] 로또 번호들을 출력한다
   - [ ] 로또 번호를 생성한다
 - [ ] 로또 당첨번호를 입력한다

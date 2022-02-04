@@ -1,5 +1,6 @@
 package lotto.domain;
 
+import java.util.Collections;
 import java.util.List;
 
 public class LottoTicket {
@@ -15,6 +16,10 @@ public class LottoTicket {
 
     public int lottoCount() {
         return lottos.size();
+    }
+
+    public List<Lotto> values() {
+        return Collections.unmodifiableList(lottos);
     }
 
     private void validateLottos(List<Lotto> lottos) {
